@@ -1,0 +1,20 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,108.77000000000001,1305.24,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate > FirstMonth,Asia Pacific (Mumbai),ME-S3,S3 Standard,0,0.78,9.36,USD,,"S3 Standard storage (30 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (5000), GET, SELECT, and all other requests from S3 Standard (5000)"
+My Estimate > FirstMonth,Asia Pacific (Mumbai),ME-S3,Data Transfer,0,16.395,196.74,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (150 GB per month)"
+My Estimate > FirstMonth,Asia Pacific (Mumbai),MathExpress-EC2-OD,Amazon EC2 ,0,28.330599999999997,339.97,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t3.small), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (4 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (2 GB per month), DT Intra-Region: (0 TB per month)"
+My Estimate > ME-SubsequentMonth,Asia Pacific (Mumbai),MathExpress-EC2-ISP,Amazon EC2 ,0,22.2716,267.26,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t3.small), Pricing strategy (EC2 Instance Savings Plans 1yr  No Upfront), Enable monitoring (disabled), EBS Storage amount (4 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (2 GB per month), DT Intra-Region: (0 TB per month)"
+My Estimate > ME-SubsequentMonth,Asia Pacific (Mumbai),ME-S3,S3 Standard,0,0.78,9.36,USD,,"S3 Standard storage (30 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (5000), GET, SELECT, and all other requests from S3 Standard (5000)"
+My Estimate > ME-SubsequentMonth,Asia Pacific (Mumbai),ME-S3,Data Transfer,0,16.395,196.74,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (150 GB per month)"
+My Estimate > ME-SubsequentMonth,Asia Pacific (Mumbai),MathExpress-EC2-CSP,Amazon EC2 ,0,23.8046,285.66,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t3.small), Pricing strategy ( 1yr  No Upfront), Enable monitoring (disabled), EBS Storage amount (4 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (2 GB per month), DT Intra-Region: (0 TB per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
